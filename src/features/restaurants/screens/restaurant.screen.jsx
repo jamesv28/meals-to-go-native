@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Searchbar } from "react-native-paper";
-import RestaurantInfo from "../components/restaurant-info.component";
+import RestaurantInfoCard from "../components/restaurant-info-card.component";
 import {
   View,
   Text,
@@ -23,7 +23,7 @@ const RestaurantsScreen = () => {
         />
       </View>
       <View style={styles.body}>
-        <RestaurantInfo />
+        <RestaurantInfoCard />
       </View>
     </SafeAreaView>
   );
