@@ -5,15 +5,16 @@ import styled from "styled-components/native";
 
 const Title = styled.Text`
   padding: 16px;
+  color: #bf0d3e;
 `;
 
 const InfoCard = styled(Card)`
-  backgroundcolor: "white";
+  background-color: #ffffff;
 `;
 
 const RestaurantImage = styled(Card.Cover)`
   padding: 20px;
-  backgroundcolor: "white";
+  background-color: #ffffff;
 `;
 
 const RestaurantInfoCard = ({ restaurant = {} }) => {

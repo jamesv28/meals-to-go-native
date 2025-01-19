@@ -13,7 +13,7 @@ import {
 
 const Restaurantcontainer = styled.SafeAreaView`
   flex: 1;
-  margintop: StatusBar.currentHeight;
+  margin-top: ${StatusBar.currentHeight}px;
 `;
 
 const SearchView = styled.View`
