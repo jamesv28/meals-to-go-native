@@ -13,16 +13,17 @@ import {
 
 const Restaurantcontainer = styled.SafeAreaView`
   flex: 1;
-  ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
+  background-color: ${(props) => props.theme.colors.brand.primary}
+    ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `;
 
 const SearchView = styled.View`
-  padding: 16px;
+  padding: ${(props) => props.theme.sizes[1]};
 `;
 
 const BodyView = styled.View`
   flex: 1;
-  padding: 16px;
+  padding: ${(props) => props.theme.sizes[1]};
 `;
 
 const RestaurantsScreen = () => {
