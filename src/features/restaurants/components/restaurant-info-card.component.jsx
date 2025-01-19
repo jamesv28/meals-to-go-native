@@ -5,7 +5,7 @@ import styled from "styled-components/native";
 
 const Title = styled.Text`
   padding: 16px;
-  color: #bf0d3e;
+  color: ${(props) => props.theme.colors.ui.error};
 `;
 
 const InfoCard = styled(Card)`
