@@ -2,14 +2,7 @@ import { useState } from "react";
 import { Searchbar } from "react-native-paper";
 import styled from "styled-components/native";
 import RestaurantInfoCard from "../components/restaurant-info-card.component";
-import {
-  View,
-  Text,
-  SafeAreaView,
-  Platform,
-  StatusBar,
-  StyleSheet,
-} from "react-native";
+import { View, Text, SafeAreaView, Platform, StatusBar } from "react-native";
 
 const Restaurantcontainer = styled.SafeAreaView`
   flex: 1;
